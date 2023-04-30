@@ -1,0 +1,87 @@
+a {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+/* Scroll bar */
+body::-webkit-scrollbar {
+  width: 5px;
+}
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+footer {
+	padding: 40px 0 100px 0;
+}
+
+footer .nav-link {
+	color: rgba(255, 255, 255, 0.75);
+	padding-left: 0;
+	padding-right: 0;
+	margin: 0 10px;
+}
+
+footer .nav-link:hover {
+	color: #fff;
+}
+
+footer .nav-link.active {
+	color: #fff;
+	border-bottom: 1px solid #666;
+}
+
+footer .copyrights {
+	color: rgba(255, 255, 255, 0.75);
+	text-align: center;
+	margin-top: 10px;
+}
+
+footer .copyrights a {
+	color: rgba(255, 255, 255, 0.75);
+}
+
+footer .copyrights a:hover {
+	color: #fff;
+}
+
+header {
+	padding: 20px 0;
+	background-color: #000;
+}
+
+header .logo {
+	transform: rotate(-6deg);
+	transition: all 0.3s ease;
+}
+
+header .logo:hover {
+	transform: rotate(0deg);
+}
+
+header .brand {
+	font-size: 30px;
+	color: #fff;
+	font-weight: 700;
+	font-family: 'Leckerli One', cursive;
+	background-color: #2d2d2d;
+	border-radius: 40px;
+	border-bottom: 2px solid #6294de;
+	text-shadow: 2px 2px 0px #000;
+}
+
+header .nav-link {
+	font-weight: 700;
+	color: #999;
+	border-radius: 0;
+	font-size: 14px;
+}
+
+header .nav-link:hover {
+	color: #fff;
+}
